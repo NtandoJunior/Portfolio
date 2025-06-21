@@ -27,6 +27,19 @@ a, .btn {
 }
 
 /* Desktop Nav */
+nav, #desktop-nav, #hamburger-nav, footer {
+  background-color: #444; /* Grey background */
+  color: #fff;            /* White text */
+}
+
+nav a,
+#desktop-nav a,
+#hamburger-nav a,
+.nav-links a,
+footer,
+footer p {
+  color: #fff !important; /* White text for links and footer text */
+}
 
 nav, .nav-links {
   display: flex;

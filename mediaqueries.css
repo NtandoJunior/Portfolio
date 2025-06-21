@@ -11,6 +11,19 @@
 
 
 @media screen and (max-width: 1200px) {
+     #desktop-nav, #hamburger-nav {
+    background-color: #353535;
+    color: white;
+  }
+  #hamburger-nav,
+  #hamburger-nav a,
+  #hamburger-nav li,
+  #hamburger-nav .nav-links a {
+    color: #000 !important; /* Make text black in hamburger menu */
+  }
+  .logo {
+    color: #fff !important; /* Keep the logo white */
+  }
   #desktop-nav {
     display: none;
   }
@@ -90,6 +103,8 @@
   }
   .text-container {
     text-align: justify;
+    padding: 1rem;
+    box-sizing: border-box;
   }
   .certificate-container {
   display: flex;
